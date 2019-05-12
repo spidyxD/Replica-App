@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_clean"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/imageButton10"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:layout_marginEnd="15dp"
+            android:background="@null"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@mipmap/ic_arrow_back" />
+
+        <TextView
+            android:id="@+id/textInit1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="@string/text3"
+            android:textAlignment="textEnd"
+            android:textColor="#FCFDFD"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <ImageButton
+        android:id="@+id/logo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:background="@null"
+        android:contentDescription="TODO"
+        app:srcCompat="@mipmap/logo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/bcr_m_vil"
+        android:textAlignment="center"
+        android:textColor="#354183"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/blabla1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/text4"
+        android:textAlignment="center"
+        android:textColor="#BABABE"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/input_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:drawableLeft="@mipmap/user"
+        android:fontFamily="monospace"
+        android:hint="Correo" />
+
+    <EditText
+        android:id="@+id/input_contrasena"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:drawableLeft="@mipmap/password"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="@string/contrase_a"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/boton_iniciar_sesion"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:backgroundTint="#DD0618"
+        android:drawableLeft="@mipmap/login"
+        android:fontFamily="monospace"
+        android:text="@string/ingresar"
+        android:textColor="@color/vpi__background_holo_light"
+        android:textColorLink="#1EAAEC" />
+
+    <TextView
+        android:id="@+id/texto_olvidaste_contrasena"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0E8AEE" />
+</LinearLayout>

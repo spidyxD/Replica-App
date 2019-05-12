@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Lab_BCR</string>
+    <string name="inicio">Inicio de sesión</string>
+    <string name="ingresar">ingresar</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="blabla1">Debe utilizar los mismos datos de la Oficina Virtual</string>
+    <string name="text4">Debe utilizar los mismos datos de la oficina virtual</string>
+    <string name="bcr_m_vil">BCR MÓVIL</string>
+    <string name="text3">Inicio de sesión</string>
+    <string name="todo">TODO</string>
+    <string name="indi_finan">Indicadores financieros</string>
+    <string name="of_y_caj">Oficinas y cajeros</string>
+    <string name="atenci_n_al_cliente">Atención al cliente</string>
+    <string name="beneficios_bcr_tarjetas">Beneficios BCR tarjetas</string>
+    <string name="solicitudes_en_l_nea">Solicitudes en línea</string>
+    <string name="iniciar_sesi_n">Iniciar sesión</string>
+    <string name="title_activity_indicador_financiero">indicador_financiero</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="change_rate">Compra: ₡588 .00 Venta: ₡601.00</string>
+    <string name="title_activity_indicador_f">indicadorF</string>
+    <string name="indicadores_financieros">Indicadores Financieros</string>
+    <string name="solicitudes_en_l_nea">Solicitudes en línea</string>
+    <string name="beneficios_bcr_tarjetas">Beneficios BCR tarjetas</string>
+
+</resources>
