@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-
+import com.example.lab_bcr.R;
 import com.example.lab_bcr.ui.main.SectionsPagerAdapter;
 
 public class Atencion_cliente extends AppCompatActivity {
