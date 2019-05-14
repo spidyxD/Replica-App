@@ -1,7 +1,170 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:background="#E4DBDB"
+    android:orientation="vertical">
 
-    </LinearLayout>
+    <TableLayout
+        android:id="@+id/paneltipocambio1"
+        android:layout_width="wrap_content"
+        android:layout_height="99dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF">
+
+        <TableRow
+            android:id="@+id/rowtc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp">
+
+            <ImageView
+                android:id="@+id/textView"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@mipmap/do_lar" />
+
+            <TableLayout
+                android:id="@+id/paneltipocambio11"
+                android:layout_width="91dp"
+                android:layout_height="63dp"
+                android:gravity="center">
+
+                <TableRow
+                    android:id="@+id/rowtc3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp">
+
+                    <TextView
+                        android:text="Compra: "
+                        android:textColor="#1A2194" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/rowtc4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp">
+
+                    <TextView
+                        android:text="Venta: "
+                        android:textColor="#1A2194" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/paneltipocambio12"
+                android:layout_width="105dp"
+                android:layout_height="63dp"
+                android:gravity="center">
+
+                <TableRow
+                    android:id="@+id/rowtc5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp">
+
+                    <TextView
+                        android:text="₡568,00 "
+                        android:textColor="#1A2194" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/rowtc6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp">
+
+                    <TextView
+                        android:text="₡599,00"
+                        android:textColor="#1A2194" />
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/paneltipocambio2"
+        android:layout_width="wrap_content"
+        android:layout_height="99dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF">
+
+        <TableRow
+            android:id="@+id/rowtc7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp">
+
+            <ImageView
+                android:id="@+id/textView2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@mipmap/euro" />
+
+            <TableLayout
+                android:id="@+id/paneltipocambio21"
+                android:layout_width="91dp"
+                android:layout_height="63dp"
+                android:gravity="center">
+
+                <TableRow
+                    android:id="@+id/rowtc8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp">
+
+                    <TextView
+                        android:text="Compra: "
+                        android:textColor="#1A2194" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/rowtc9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp">
+
+                    <TextView
+                        android:text="Venta: "
+                        android:textColor="#1A2194" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/paneltipocambio22"
+                android:layout_width="105dp"
+                android:layout_height="63dp"
+                android:gravity="center">
+
+                <TableRow
+                    android:id="@+id/rowtc10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp">
+
+                    <TextView
+                        android:text="$1,11"
+                        android:textColor="#1A2194" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/rowtc11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp">
+
+                    <TextView
+                        android:text="$1,14"
+                        android:textColor="#1A2194" />
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+
+
+    </TableLayout>
+</LinearLayout>

@@ -20,5 +20,6 @@
     <string name="indicadores_financieros">Indicadores Financieros</string>
     <string name="solicitudes_en_l_nea">Solicitudes en línea</string>
     <string name="beneficios_bcr_tarjetas">Beneficios BCR tarjetas</string>
+    <string name="title_activity_calculadora_creditos">calculadoraCreditos</string>
 
 </resources>

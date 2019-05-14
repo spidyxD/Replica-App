@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:id="@+id/panelbv1"
+        android:layout_width="wrap_content"
+        android:layout_height="157dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF">
+
+        <TableRow
+            android:id="@+id/rowbc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp">
+
+            <TextView
+                android:text="Reportos Tripartitos Colones y Dólares."
+                android:textColor="#1A2194"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_marginStart="10dp"
+                android:text=">"
+                android:textColor="#D81111"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowbc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp">
+
+            <TextView
+                android:text="Últimas Negociaciones."
+                android:textColor="#1A2194"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_marginStart="10dp"
+                android:text=">"
+                android:textColor="#D81111"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowbc3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp">
+
+            <TextView
+                android:text="Curva Soberana Colones y Dolores."
+                android:textColor="#1A2194"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_marginStart="10dp"
+                android:text=">"
+                android:textColor="#D81111"
+                android:textSize="18sp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/rowbc4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp">
+
+            <TextView
+                android:text="Participaciones BCRSF y Acciones."
+                android:textColor="#1A2194"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_marginStart="10dp"
+                android:text=">"
+                android:textColor="#D81111"
+                android:textSize="18sp" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/panelbv2"
+        android:layout_width="317dp"
+        android:layout_height="245dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF">
+
+        <TableRow
+            android:id="@+id/rowbc5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp">
+
+            <TextView
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="#1A2194"
+                android:gravity="center"
+                android:text="Contáctenos"
+                android:textColor="#1A2194"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="307dp"
+            android:layout_height="3dp"
+            android:background="#1A2194"
+            android:textSize="18sp" />
+
+        <TableRow
+            android:id="@+id/rowbc6"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp">
+
+            <TextView
+                android:layout_width="198dp"
+                android:layout_height="24dp"
+                android:drawableStart="@mipmap/contact"
+                android:text="   Formulario Contacto"
+                android:textColor="#1A2194"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_marginStart="-140dp"
+                android:backgroundTint="#1A2194"
+                android:drawableStart="@mipmap/email"
+                android:text="   Enviar un e-mail"
+                android:textColor="#1A2194"
+                android:textSize="14sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowbc7"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp">
+
+            <TextView
+                android:layout_width="198dp"
+                android:layout_height="24dp"
+                android:drawableStart="@mipmap/phone"
+                android:text="   (506) 2549-2600"
+                android:textColor="#1A2194"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_marginStart="-140dp"
+                android:backgroundTint="#1A2194"
+                android:drawableStart="@mipmap/chalendar"
+                android:text="   Calendario Subastas"
+                android:textColor="#1A2194"
+                android:textSize="14sp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/rowbc8"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp">
+
+            <TextView
+                android:layout_width="198dp"
+                android:layout_height="24dp"
+                android:drawableStart="@mipmap/fax"
+                android:text="   (506) 2549-3723"
+                android:textColor="#1A2194"
+                android:textSize="14sp" />
+
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

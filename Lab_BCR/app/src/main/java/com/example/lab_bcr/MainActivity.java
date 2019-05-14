@@ -65,6 +65,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(a);
             }
         });
+        TextView tv7=(TextView)findViewById(R.id.textView7);
+        tv7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent a = new Intent(MainActivity.this, login.class);
+                startActivity(a);
+            }
+        });
+
     }
 
 

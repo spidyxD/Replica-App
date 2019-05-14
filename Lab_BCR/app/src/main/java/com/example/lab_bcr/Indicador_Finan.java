@@ -4,25 +4,42 @@ import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentTabHost;
+import android.util.Log;
 
 import com.example.lab_bcr.ui.main.SectionsPagerAdapter;
 
-public class Indicador_Finan extends AppCompatActivity {
+public class Indicador_Finan extends FragmentActivity  {
+    private static final String TAG="MainActivity";
 
+    private SectionsPageAdapter mSectionsPageAdapter;
+
+    private  ViewPager mViewPager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.generic_tabs);
-        SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
-        ViewPager viewPager = findViewById(R.id.view_pager);
-        viewPager.setAdapter(sectionsPagerAdapter);
-        TabLayout tabs = findViewById(R.id.tabs);
-        tabs.setupWithViewPager(viewPager);
-        tabs.addTab(tabs.newTab().setText("TIPO DE CAMBIO"));
-        tabs.addTab(tabs.newTab().setText("CALCULADORA DE CREDITOS"));
-        tabs.addTab(tabs.newTab().setText("TASAS DE INTERES"));
-        tabs.addTab(tabs.newTab().setText("TASAS CDP"));
-        tabs.addTab(tabs.newTab().setText("BCR VALORES"));
-        tabs.setTabMode(TabLayout.MODE_SCROLLABLE);
+
+        Log.d(TAG,"onCreate: Starting");
+
+        mSectionsPageAdapter= new SectionsPageAdapter(getSupportFragmentManager());
+
+        mViewPager= (ViewPager)findViewById(R.id.container);
+        setupViewPage(mViewPager);
+
+        TabLayout tabLayout= (TabLayout)findViewById(R.id.tabs);
+        tabLayout.setupWithViewPager(mViewPager);
     }
+    private void setupViewPage(ViewPager viewPager){
+        SectionsPageAdapter adapter= new SectionsPageAdapter(getSupportFragmentManager());
+        adapter.addFragment(new tipoCambio(), "TIPO DE CAMBIO");
+        adapter.addFragment(new calculadoraCreditos(), "CALCULADORA CRÉTIDOS");
+        adapter.addFragment(new tasasDeInteres(), "TASAS DE INTERÉS");
+        adapter.addFragment(new tasasCdp(), "TASAS CDP");
+        adapter.addFragment(new bcrValores(), "BCR VALORES");
+        viewPager.setAdapter(adapter);
+    }
+
 }

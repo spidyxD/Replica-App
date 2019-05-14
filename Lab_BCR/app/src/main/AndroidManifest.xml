@@ -9,9 +9,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".login"
+            android:label="Login"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
         <activity
             android:name=".Indicador_Finan"
             android:label="@string/title_activity_indicador_f"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.lab_bcr.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Oficnas_cajeros"
+            android:label="Oficinas y Cajeros"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.lab_bcr.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Atencion_cliente"
+            android:label="Atención al cliente"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
