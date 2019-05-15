@@ -16,7 +16,7 @@ public class bcrValores extends Fragment {
 
                              Bundle savedInstanceState) {
 
-        return inflater.inflate(R.layout.tap_bcr_valores, container, false);
+        return inflater.inflate(R.layout.tab_bcr_valores, container, false);
 
     }
 

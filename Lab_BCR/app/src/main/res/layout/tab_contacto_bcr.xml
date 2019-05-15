@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4DBDB"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="332dp"
+        android:layout_height="41dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="@string/tiene_a_su_disposici_n"
+        android:textAlignment="center"
+        android:textColor="#1A2194"
+        android:textStyle="bold" />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FFFFFF"
+            android:drawableLeft="@mipmap/customer_phone"
+            android:text="@string/consulta_telefonica"
+            android:textColor="#43A2EC"
+            android:textStyle="bold" />
+
+    </TableLayout>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="100dp"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:drawableLeft="@mipmap/customer_email"
+            android:text="@string/enviar_correo_electronico"
+            android:textColor="#43A2EC"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </TableLayout>
+
+    <TextView
+        android:layout_width="332dp"
+        android:layout_height="41dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="@string/es_un_gusto_ayudarlo"
+        android:textAlignment="center"
+        android:textColor="#A6A6AA"
+        android:textStyle="bold" />
+</LinearLayout>

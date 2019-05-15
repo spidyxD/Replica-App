@@ -17,7 +17,7 @@ private static final String TAG="tipoCambio";
 
                              Bundle savedInstanceState) {
 
-        return inflater.inflate(R.layout.tipo_cambio, container, false);
+        return inflater.inflate(R.layout.tab_tipo_cambio, container, false);
 
     }
 

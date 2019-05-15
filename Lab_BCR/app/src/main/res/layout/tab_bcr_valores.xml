@@ -20,13 +20,13 @@
             android:layout_marginTop="13dp">
 
             <TextView
-                android:text="Reportos Tripartitos Colones y Dólares."
+                android:text="@string/reportos_tripartitos_colones_y_d_lares"
                 android:textColor="#1A2194"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_marginStart="10dp"
-                android:text=">"
+                android:text="@string/simbol1"
                 android:textColor="#D81111"
                 android:textSize="18sp" />
         </TableRow>
@@ -38,13 +38,13 @@
             android:layout_marginTop="13dp">
 
             <TextView
-                android:text="Últimas Negociaciones."
+                android:text="@string/ltimas_negociaciones"
                 android:textColor="#1A2194"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_marginStart="10dp"
-                android:text=">"
+                android:text="@string/simbol2"
                 android:textColor="#D81111"
                 android:textSize="18sp" />
         </TableRow>
@@ -56,13 +56,13 @@
             android:layout_marginTop="13dp">
 
             <TextView
-                android:text="Curva Soberana Colones y Dolores."
+                android:text="@string/curva_soberana_colones_y_dolores"
                 android:textColor="#1A2194"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_marginStart="10dp"
-                android:text=">"
+                android:text="@string/simbol2"
                 android:textColor="#D81111"
                 android:textSize="18sp" />
         </TableRow>
@@ -73,13 +73,13 @@
             android:layout_marginTop="13dp">
 
             <TextView
-                android:text="Participaciones BCRSF y Acciones."
+                android:text="@string/participaciones_bcrsf_y_acciones"
                 android:textColor="#1A2194"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_marginStart="10dp"
-                android:text=">"
+                android:text="@string/simbol2"
                 android:textColor="#D81111"
                 android:textSize="18sp" />
         </TableRow>
@@ -104,7 +104,7 @@
                 android:layout_height="match_parent"
                 android:backgroundTint="#1A2194"
                 android:gravity="center"
-                android:text="Contáctenos"
+                android:text="@string/cont_ctenos"
                 android:textColor="#1A2194"
                 android:textSize="18sp" />
         </TableRow>
@@ -125,7 +125,7 @@
                 android:layout_width="198dp"
                 android:layout_height="24dp"
                 android:drawableStart="@mipmap/contact"
-                android:text="   Formulario Contacto"
+                android:text="@string/formulario_contacto"
                 android:textColor="#1A2194"
                 android:textSize="14sp" />
 
@@ -133,7 +133,7 @@
                 android:layout_marginStart="-140dp"
                 android:backgroundTint="#1A2194"
                 android:drawableStart="@mipmap/email"
-                android:text="   Enviar un e-mail"
+                android:text="@string/enviar_un_e_mail"
                 android:textColor="#1A2194"
                 android:textSize="14sp" />
         </TableRow>
@@ -148,7 +148,7 @@
                 android:layout_width="198dp"
                 android:layout_height="24dp"
                 android:drawableStart="@mipmap/phone"
-                android:text="   (506) 2549-2600"
+                android:text="@string/_506_2549_2600"
                 android:textColor="#1A2194"
                 android:textSize="14sp" />
 
@@ -156,7 +156,7 @@
                 android:layout_marginStart="-140dp"
                 android:backgroundTint="#1A2194"
                 android:drawableStart="@mipmap/chalendar"
-                android:text="   Calendario Subastas"
+                android:text="@string/calendario_subastas"
                 android:textColor="#1A2194"
                 android:textSize="14sp" />
         </TableRow>
@@ -170,7 +170,7 @@
                 android:layout_width="198dp"
                 android:layout_height="24dp"
                 android:drawableStart="@mipmap/fax"
-                android:text="   (506) 2549-3723"
+                android:text="@string/_506_2549_3723"
                 android:textColor="#1A2194"
                 android:textSize="14sp" />
 

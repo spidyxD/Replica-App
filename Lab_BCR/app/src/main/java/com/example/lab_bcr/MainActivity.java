@@ -1,15 +1,12 @@
 package com.example.lab_bcr;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
-import android.content.Context;
-import android.os.Bundle;
-import android.content.Intent;
+
 import com.synnapps.carouselview.CarouselView;
 import com.synnapps.carouselview.ImageClickListener;
 import com.synnapps.carouselview.ImageListener;
@@ -41,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        TextView tv1=(TextView)findViewById(R.id.textView);
+        TextView tv1=(TextView)findViewById(R.id.textView1);
         tv1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -49,11 +46,19 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(a);
             }
         });
+        TextView tv2=(TextView)findViewById(R.id.textView2);
+        tv2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent a = new Intent(MainActivity.this, Oficnas_cajeros.class);
+                startActivity(a);
+            }
+        });
         TextView tv3=(TextView)findViewById(R.id.textView3);
         tv3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent a = new Intent(MainActivity.this, Oficnas_cajeros.class);
+                Intent a = new Intent(MainActivity.this, Atencion_cliente.class);
                 startActivity(a);
             }
         });
@@ -61,18 +66,29 @@ public class MainActivity extends AppCompatActivity {
         tv4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent a = new Intent(MainActivity.this, Oficnas_cajeros.class);
+                Intent a = new Intent(MainActivity.this, Beneficios_Tarjetas.class);
                 startActivity(a);
             }
         });
-        TextView tv7=(TextView)findViewById(R.id.textView7);
-        tv7.setOnClickListener(new View.OnClickListener() {
+
+
+        TextView tv5=(TextView)findViewById(R.id.textView5);
+        tv5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent a = new Intent(MainActivity.this, Solicitudes_linea.class);
+                startActivity(a);
+            }
+        });
+        TextView tv6=(TextView)findViewById(R.id.textView6);
+        tv6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent a = new Intent(MainActivity.this, login.class);
                 startActivity(a);
             }
         });
+
 
     }
 

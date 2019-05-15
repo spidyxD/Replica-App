@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4DBDB"
+    android:orientation="vertical">
+
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        >
+
+        <TextView
+            android:layout_width="332dp"
+            android:layout_height="41dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:text="@string/tweets_por_el_bancobcr"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="#1A2194"
+            android:textStyle="bold" />
+
+    </TableLayout>
+
+
+
+</LinearLayout>

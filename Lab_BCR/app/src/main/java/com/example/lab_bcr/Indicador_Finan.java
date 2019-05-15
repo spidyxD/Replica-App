@@ -3,13 +3,8 @@ package com.example.lab_bcr;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentTabHost;
 import android.util.Log;
-
-import com.example.lab_bcr.ui.main.SectionsPagerAdapter;
 
 public class Indicador_Finan extends FragmentActivity  {
     private static final String TAG="MainActivity";
@@ -20,7 +15,7 @@ public class Indicador_Finan extends FragmentActivity  {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.generic_tabs);
+        setContentView(R.layout.tab_indicador_financiero);
 
         Log.d(TAG,"onCreate: Starting");
 

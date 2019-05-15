@@ -15,11 +15,30 @@
     <string name="title_activity_indicador_financiero">indicador_financiero</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
-    <string name="change_rate">Compra: ₡588 .00 Venta: ₡601.00</string>
+    <string name="change_rate">Compra:       ₡588.00     Venta:      ₡601.00</string>
     <string name="title_activity_indicador_f">indicadorF</string>
     <string name="indicadores_financieros">Indicadores Financieros</string>
     <string name="solicitudes_en_l_nea">Solicitudes en línea</string>
     <string name="beneficios_bcr_tarjetas">Beneficios BCR tarjetas</string>
     <string name="title_activity_calculadora_creditos">calculadoraCreditos</string>
-
+    <string name="reportos_tripartitos_colones_y_d_lares">Reportos Tripartitos Colones y Dólares.</string>
+    <string name="simbol1"><![CDATA[>]]></string>
+    <string name="participaciones_bcrsf_y_acciones">Participaciones BCRSF y Acciones.</string>
+    <string name="simbol2"><![CDATA[<]]></string>
+    <string name="ltimas_negociaciones">Últimas Negociaciones.</string>
+    <string name="curva_soberana_colones_y_dolores">Curva Soberana Colones y Dolores.</string>
+    <string name="cont_ctenos">Contáctenos</string>
+    <string name="formulario_contacto">Formulario Contacto</string>
+    <string name="enviar_un_e_mail">Enviar un e-mail</string>
+    <string name="_506_2549_2600">(506) 2549-2600</string>
+    <string name="calendario_subastas">Calendario Subastas</string>
+    <string name="_506_2549_3723">(506) 2549-3723</string>
+    <string name="atencion_cliente">Atención al cliente</string>
+    <string name="oficinas_y_cajeros">Oficinas y cajeros</string>
+    <string name="enviar_correo_electronico">ENVIAR CORREO ELECTRONICO</string>
+    <string name="es_un_gusto_ayudarlo">Es un gusto ayudarlo con sus consultas y atender sus sugerencias</string>
+    <string name="consulta_telefonica">CONSULTA TELEFONICA</string>
+    <string name="tiene_a_su_disposici_n">Tiene a su disposición los siguientes medios para contactar al BCR</string>
+    <string name="tweets_por_el_bancobcr">Tweets por el @BancoBCR</string>
+    <string name="todo">TODO</string>
 </resources>

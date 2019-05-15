@@ -16,7 +16,7 @@ public class tasasCdp extends Fragment {
 
                              Bundle savedInstanceState) {
 
-        return inflater.inflate(R.layout.tap_tasas_dcp, container, false);
+        return inflater.inflate(R.layout.tab_tasas_dcp, container, false);
 
     }
 
