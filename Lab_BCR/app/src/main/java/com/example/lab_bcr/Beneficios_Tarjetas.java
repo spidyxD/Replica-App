@@ -1,39 +1,38 @@
 package com.example.lab_bcr;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.widget.ImageView;
+import android.support.design.widget.TabLayout;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.view.ViewPager;
+import android.util.Log;
 
-import com.synnapps.carouselview.CarouselView;
-import com.synnapps.carouselview.ImageClickListener;
-import com.synnapps.carouselview.ImageListener;
 
-public class Beneficios_Tarjetas extends AppCompatActivity {
+public class Beneficios_Tarjetas extends FragmentActivity {
+    private static final String TAG="MainActivity";
 
-    CarouselView carouselView;
+    private SectionsPageAdapter mSectionsPageAdapter;
 
-    int[] sampleImages = {R.drawable.e1, R.drawable.e2, R.drawable.e3, R.drawable.e4, R.drawable.e5,R.drawable.e6,
-            R.drawable.e7, R.drawable.e8, R.drawable.e9, R.drawable.e10, R.drawable.e11,R.drawable.e12,R.drawable.e13, R.drawable.e14, R.drawable.e15, R.drawable.e16};
+    private ViewPager mViewPager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tab_beneficios_tarjetas);
-        getSupportActionBar().hide();
-        carouselView = findViewById(R.id.carouselView);
-        carouselView.setPageCount(sampleImages.length);
 
-        carouselView.setImageListener(new ImageListener() {
-            @Override
-            public void setImageForPosition(int position, ImageView imageView) {
-                imageView.setImageResource(sampleImages[position]);
-            }
-        });
-        carouselView.setImageClickListener(new ImageClickListener() {
-            @Override
-            public void onClick(int position) {
+        Log.d(TAG,"onCreate: Starting");
 
-            }
-        });
+        mSectionsPageAdapter= new SectionsPageAdapter(getSupportFragmentManager());
+
+        mViewPager= (ViewPager)findViewById(R.id.container);
+        setupViewPage(mViewPager);
+
+        TabLayout tabLayout= (TabLayout)findViewById(R.id.tabs);
+        tabLayout.setupWithViewPager(mViewPager);
+    }
+    private void setupViewPage(ViewPager viewPager){
+        SectionsPageAdapter adapter= new SectionsPageAdapter(getSupportFragmentManager());
+        adapter.addFragment(new beneficios(), "");
+
+        viewPager.setAdapter(adapter);
     }
 
 }

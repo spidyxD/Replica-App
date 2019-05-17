@@ -40,5 +40,11 @@
     <string name="consulta_telefonica">CONSULTA TELEFONICA</string>
     <string name="tiene_a_su_disposici_n">Tiene a su disposición los siguientes medios para contactar al BCR</string>
     <string name="tweets_por_el_bancobcr">Tweets por el @BancoBCR</string>
-    <string name="todo">TODO</string>
+    <string-array name="options">
+        <item>Pulseras Beep</item>
+        <item>Tarjetas</item>
+        <item>Beneficios</item>
+        <item>Comercios</item>
+        <item>Seguridad</item>
+    </string-array>
 </resources>
